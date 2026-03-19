@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+
+  "AI_HEADER": {
+    "type": "AUDIT_SCHEMA",
+    "mode": "REQUIRED",
+    "instruction": "All commits must conform to this schema."
+  },
+
+  "type": "object",
+  "required": ["Context", "Decision", "Impact", "Next"],
+
+  "properties": {
+    "Context": { "type": "string" },
+    "Decision": { "type": "string" },
+    "Impact": { "type": "string" },
+    "Next": { "type": "string" }
+  },
+
+  "additionalProperties": false
+}
