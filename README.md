@@ -1,3 +1,5 @@
+> ⚠️ SPECIFICATION ONLY — No implementation yet. Engine code is planned but not yet built.
+
 ---
 Prospera-ID: prospera-ontology-engine
 Governance-Category: PLATFORM
