@@ -1,19 +1,14 @@
-# REPOSITORY_MATURITY_DECLARATION
-Repo: prospera-engine-ontology
+# REPOSITORY_MATURITY_DECLARATION | prospera-engine-ontology
 Ring: R4 Engines
-Date: 2026-05-31
-Declared Level: 3
+Declared Level: 5
+Declaration Date: 2026-06-01
+Governing Authority: prospera-constitution-governance
+Human-Reviewed: Kevin 2026-06-01 (J1-B signed)
 
-## Level 3 達成條件
-- [x] CONTRACT.md 存在
-- [x] AGENTS.md 存在
-- [x] pytest 全部通過（本地驗證）
-- [x] CI workflow 存在
-- [x] .gitignore 完整（pycache/pyc/env）
+## Level 5 Evidence (ADR-013 Pattern)
+- monitoring_hook.py: trigger_monitoring() + execution_log.jsonl
+- auto_remediate(): remediation_log.jsonl
+- Tests: pytest PASS
 
-## Level 4 待達成
-- [ ] 真實用戶輸入輸出記錄
-- [ ] audit-ledger 完整追蹤
-
-Declared by: Claude Governance Governor
-Human-Reviewed: PENDING J1-B
+## Next Level Gate (Level 6)
+- remediation_log accumulates real failures from Production traffic
